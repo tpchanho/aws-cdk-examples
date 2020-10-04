@@ -18,4 +18,6 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 ```
 npm i -g wscat
 wscat -c wss://a1b2c3d4e5.execute-api.ap-northeast-2.amazonaws.com/prod -H Authorization:testtoken
+> {"Action":"test"}
+>
 ```
