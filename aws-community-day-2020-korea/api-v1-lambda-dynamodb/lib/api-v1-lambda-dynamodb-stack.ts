@@ -1,5 +1,5 @@
 import * as cdk from '@aws-cdk/core';
-import { RestApi, CfnAuthorizer, LambdaIntegration, AuthorizationType, CfnMethod } from '@aws-cdk/aws-apigateway'
+import { RestApi,  LambdaIntegration } from '@aws-cdk/aws-apigateway'
 import { Function, Runtime, AssetCode } from '@aws-cdk/aws-lambda'
 import { Role, ServicePrincipal } from '@aws-cdk/aws-iam'
 import { Table, AttributeType } from '@aws-cdk/aws-dynamodb'
