@@ -19,5 +19,6 @@ export class Lambda07Stack extends cdk.Stack {
         PRIMARY_KEY: "Id",
       },
     });
+    props.sampleTable.grantReadWriteData(testFunc1);
   }
 }
