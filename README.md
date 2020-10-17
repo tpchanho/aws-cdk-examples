@@ -1,6 +1,15 @@
 # examples for aws commnity day 2020 korea online
 
-`AWS CDK를 이용한 코드 기반 인프라 개발과 배포` 발표 자료 만드는데 사용된 예제 코드들입니다. 
+## 발표 자료
+
+AWS Community Day Online 2020에서 `AWS Cloud Development Kit (CDK)를 이용한 코드 기반 인프라 개발 및 배포` 라는 주제로 발표한 자료입니다. 
+
+* https://youtu.be/2TTHwzR62Jg
+* https://www.slideshare.net/awskr/aws-cdk-awscommunityday-online-2020/
+
+## 예제 코드
+
+위 발표 자료 만드는데 사용된 예제 코드들입니다. 
 
 * rest-api-custom-request-auth
   * Rest API - Custom Authorizer (Request)
